@@ -13,18 +13,15 @@ This code include analysis for:
 ```Fig. 1d```: Compute the Spearman correlation between genetic similarity to _L. monocytogenes_ and average richness of functional ARGs.\
 ```Supplementary Fig. 1b```: Compute the Spearman correlation between genetic similarity to _L. monocytogenes_ and average richness of present ARGs.\
 ```Fig. 1e```: Map functional ARGs richness among _Listeria_ genomes across the United States.\
-```Supplementary Fig. 1c```: Map present ARGs richness among _Listeria_ genomes across the United States.\
-
+```Supplementary Fig. 1c```: Map present ARGs richness among _Listeria_ genomes across the United States.
 
 ```Fig. 4a```: Compute Spearman's partial correlation between ARG richness in _Listeria_ genomes and environmental variables, controlled for genetic similarity for _L. monocytogenes_.\
 ```Fig. 4b```: Compute Variation partitioning analysis (VPA) for ARG richness, controlled for genetic similarity.\
 ```Fig. 4c```: Compute two-sided Mann-Whitney test for environmental variables among _Listeria sensu stricto_ and _sensu lato_ species and present it using a volcano plot.\
 ```Fig. 4f```: Compute Mantel tests between ARG sequence dissimilarity and environmental variables.\
 ```Fig. 4g```: Conduct VPA for _norB_ sequence diversification.\
-```Supplementary Fig. 4a-d```: Conduct VPA for the sequence diversification of _fosX, mprF, lin, sul_.\
-
+```Supplementary Fig. 4a-d```: Conduct VPA for the sequence diversification of _fosX, mprF, lin, sul_.
 
 ```Supplementary Fig. 2```: Conduct multidimensional scaling (MDS) analysis for genomes with/without ARGs based on environmental conditions.\
 ```Supplementary Fig. 6a-b```: Compute paired two-sided t-test for predicted outputs from BIGSdb-Lm and CARD and present it using barplots.\
 ```Supplementary Fig. 7```: Compute the Spearman correlation between diversity and richness of functional ARGs.
-
