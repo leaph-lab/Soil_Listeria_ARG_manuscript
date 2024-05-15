@@ -2,24 +2,27 @@
 Code used to replicate data analyses in the manuscruipt Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_.
 
 ## Code
-Soil_Listeria_ARG.ipynb: code used to analyze CTF, ALTAS, InStrain, gRodon, and PathoFact outputs and metadata and generate plots in Fig. 1-4 and Supplementary Fig. 1-9.
+```Soil_Listeria_ARG.ipynb```: code used for analysis and generate plots in Fig. 1, 4 and Supplementary Figs. 1, 2, 4, 6, 7.
 
-Fig. 1a: use ALTAS outputs
-Fig. 1b-e: use CTF outputs
-Fig. 2a-f and Fig. 2j: use InStrain outputs based on data from the MOMs-PI study
-Fig. 2h-i: use InStrain outputs based on data from the Relman study (Gotsman et al.)
-Fig. 3a: use ALTAS outputs and InStrain outputs based on data from the MOMs-PI study
-Fig. 3b: use gRoden outputs
-Fig. 3d-f: use InStrain outputs based on data from the MOMs-PI study
-`Fig. 4: use PathoFact outputs
-Supplementary Fig. 2: use ALTAS outputs
-Supplementary Fig. 3 and 4: use InStrain outputs based on data from the MOMs-PI study
-Supplementary Fig. 5a-d: use ALTAS outputs
-Supplementary Fig. 5e: use ALTAS outputs and InStrain outputs based on data from the MOMs-PI study
-Supplementary Fig. 6f-i: use InStrain outputs based on subsampled data (10^5 reads) from the MOMs-PI study
-Supplementary Fig. 6j: use InStrain outputs based on subsampled data (5,000 Gardnerella reads) from the MOMs-PI study[Uploading Soil_Listeria_ARG_manuscript.ipynb…]()
+This code include analysis for:
 
-Supplementary Fig. 6: use ALTAS outputs and InStrain outputs based on data from the MOMs-PI study
-Supplementary Fig. 7: use InStrain outputs based on data from the MOMs-PI study
-Supplementary Fig. 8: use PathoFact outputs
-Supplementary Fig. 9: use metadata
+```Fig. 1a```: Compute the proportions of present and functional ARGs across _Listeria_ genomes.\
+```Fig. 1b```: Compute the proportions of functional ARGs across _Listeria_ species.\
+```Supplementary Fig. 1a```: Compute the proportions of present ARGs across _Listeria_ species.\
+```Fig. 1c```: Compute the richness of present and functional ARGs across _Listeria_ species.\
+```Fig. 1d```: Compute the Spearman correlation between genetic similarity to _L. monocytogenes_ and average richness of functional ARGs.\
+```Supplementary Fig. 1b```: Compute the Spearman correlation between genetic similarity to _L. monocytogenes_ and average richness of present ARGs.\
+```Fig. 1e```: Map functional ARGs richness among _Listeria_ genomes across the United States.\
+```Supplementary Fig. 1c```: Map present ARGs richness among _Listeria_ genomes across the United States.\
+
+```Fig. 4a```: Compute Spearman's partial correlation between ARG richness in _Listeria_ genomes and environmental variables, controlled for genetic similarity for _L. monocytogenes_.\
+```Fig. 4b```: Compute Variation partitioning analysis (VPA) for ARG richness, controlled for genetic similarity.\
+```Fig. 4c```: Compute two-sided Mann-Whitney test for environmental variables among _Listeria sensu stricto_ and _sensu lato_ species and present it using a volcano plot.\
+```Fig. 4f```: Compute Mantel tests between ARG sequence dissimilarity and environmental variables.\
+```Fig. 4g```: Conduct VPA for _norB_ sequence diversification.\
+```Supplementary Fig. 4a-d```: Conduct VPA for the sequence diversification of _fosX, mprF, lin, sul_.\
+
+```Supplementary Fig. 2```: Conduct multidimensional scaling (MDS) analysis for genomes with/without ARGs based on for environmental conditions\
+```Supplementary Fig. 6a-b```: Compute paired two-sided t-test for predicted outputs from BIGSdb-Lm and CARD and present it using barplots.\
+```Supplementary Fig. 7```: Compute the Spearman correlation between diversity and richness of functional ARGs.\
+
