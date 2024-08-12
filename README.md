@@ -26,7 +26,7 @@ For running the R code in the Jupyter notebook install rpy2 package using `pip i
 - Now in order to run any cell having R code, ensure that %%R is at the top of the code. Similarly to run any line of R code, ensure that %R is in front of that line.
 
 ## Structure
-```Soil_Listeria_ARG.ipynb```: code used for analysis and generate plots in Fig. 1, 4 and Supplementary Figs. 1, 2, 4, 6, 7.
+```Soil_Listeria_ARG_manuscript.ipynb```: code used for analysis and generate plots in Figs. 1a-f, 2f, 3c-d, 4a-d,f-g and Supplementary Figs. 1, 4, 6, 7.
 
 This code include analysis for:
 
