@@ -2,7 +2,7 @@
 Code used to replicate data analyses in the manuscruipt Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_.
 
 ## Input data
-Input data used for the analyses is published as: Jingqiu Liao, Liat Shenhav, & Tal Korem. (2023). Processed data for Microdiversity of the Vaginal Microbiome is Associated with Preterm Birth. [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8150902
+Input data used for the analyses is published as: Ying-Xian Goh & Jingqiu Liao. (2024). Processed data for Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_. [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.8150902
 
 ## Required Python packages
 - numpy 
