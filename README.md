@@ -1,8 +1,11 @@
 # Soil_Listeria_ARG_manuscript
-Code used to replicate data analyses in the manuscruipt Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_.
+Code used to replicate data analyses in the manuscruipt "Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_".
 
 ## Input files
 Files used for the analyses is published as: Ying-Xian Goh & Jingqiu Liao. (2024). Data and code for 'Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_'. [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.14027083.
+
+## Citation
+Goh, YX., Anupoju, S.M.B., Nguyen, A. et al. Evidence of horizontal gene transfer and environmental selection impacting antibiotic resistance evolution in soil-dwelling _Listeria_. _Nat Commun_ 15, 10034 (2024). (https://doi.org/10.1038/s41467-024-54459-9)[https://doi.org/10.1038/s41467-024-54459-9]
 
 ## Required Python packages
 - numpy 
